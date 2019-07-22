@@ -6,11 +6,12 @@
 			return -1;
 		} 
 		if($n == 0){
-			return 1;
+			return 0;
 		}
 		else {
 			# code...
-			return $n + demo($n - 1);
+
+			return  demo($n - 1) + $n;
 		}
 	}
 

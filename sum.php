@@ -1,10 +1,16 @@
 <?php 
 	
 	$sum = 0;
-	for ($i=1; $i < 5; $i++) { 
+	$n = 5;
+	for ($i=1; $i < $n; $i++) { 
+		echo "$i ";
+		if ($i < $n-1) {
+			echo "+";
+		}
+		
 		$sum = $sum + $i;
 	}
 
-	echo "SUM = " . $sum;
+	echo "= " . $sum;
 
  ?>
